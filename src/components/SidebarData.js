@@ -12,42 +12,40 @@ export const SidebarData = [
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
 
-    subNav: [
-      {
-        title: 'Users',
-        path: '/overview/users',
-        icon: <IoIcons.IoIosPaper />
-      },
-      {
-        title: 'Revenue',
-        path: '/overview/revenue',
-        icon: <IoIcons.IoIosPaper />
-      }
-    ]
   },
   {
-    title: 'Reports',
-    path: '/reports',
+    title: 'Web Programming',
+    path: '/web_programming',
     icon: <IoIcons.IoIosPaper />,
     iconClosed: <RiIcons.RiArrowDownSFill />,
     iconOpened: <RiIcons.RiArrowUpSFill />,
 
     subNav: [
       {
-        title: 'Reports',
-        path: '/reports/reports1',
+        title: 'General Info',
+        path: '/web_programming/general',
         icon: <IoIcons.IoIosPaper />,
         cName: 'sub-nav'
       },
       {
-        title: 'Reports 2',
-        path: '/reports/reports2',
+        title: 'Canvas',
+        path: '/web_programming/canvas',
         icon: <IoIcons.IoIosPaper />,
         cName: 'sub-nav'
       },
       {
-        title: 'Reports 3',
-        path: '/reports/reports3',
+        title: 'Console Logs',
+        path: '/web_programming/console_logs',
+        icon: <IoIcons.IoIosPaper />
+      },
+      {
+        title: 'Lambda Calculus',
+        path: '/web_programming/lambda_calculuss',
+        icon: <IoIcons.IoIosPaper />
+      },
+      {
+        title: 'Rest',
+        path: '/web_programming/rest',
         icon: <IoIcons.IoIosPaper />
       }
     ]
